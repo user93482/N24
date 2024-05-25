@@ -1,0 +1,93 @@
+
+1:
+Tudjuk hogy a vonat összesen 300+vonat hossza távot tett meg 20s alatt. 
+Az alagutban 5s volt egy lámpa alatt ami azt jelenti hogy a vonat a saját hosszát 5s alatt teszi meg. Tehát a vonat 300m 15s alatt teszi meg azaz 20m/s megy. A vonat hossza emiatt 100m mert 20m/s -el 5s alatt teszi meg a saját hosszát.
+
+2:
+Legyen a 8cm kocka A, a 6cm B és a 2cm C. 
+Ha a kivágásunk csak egy kocka, amik közül az A a legnagyobb, tehát annak lesz a legnagyobb térfogata, akkor a térfogat 8^3 = 512cm^3.
+Ha két kockát veszünk akkor A és B konbinációjab lesz a lesz a legnagyobb 6×6×(6+8) = 504 cm^3.
+Ha mind a hármat felhasználjuk akkor 2×2×(2+6+8) = 64 cm^3.
+Tehát a legnagyobb amit kaphatunk 512cm^3.
+
+3:
+Legyen az az idő amit Juliska gyalogol A, amit biciklizik B.
+Legyen az az idő amit Jancsi gyalogol Y, amit biciklizik X.
+Ilyenkor felírhatjuk hogy:
+1.1
+	x×5+y×12=20
+Emellet tudjuk hogy a táv amit Juliska gyalogolt az egyenlő azzal amit Jancsi biziklizett, azaz;
+2.1
+	12y=4a 
+	a=3y
+és egyenlö a táv amit Jancsi gyalogot és Juliska biciklizett, azaz;
+2.2
+	5x=10b
+	b=0.5x
+Emellett tudjuk hogy egyszerre értek be, tehát:
+3.1
+	a+b=x+y
+Ebbe ha behelyetesítünk a,b:
+3.2
+	3y+0.5x=x+y
+	2y=0.5x
+Ha ezt behelyetesítjük 1.1-be:
+4.1
+	5×4y+12y=20
+	32y=20
+	y=5/8
+Tehát Jancsi 5/8 órát gyalogolt.
+A 3.2-be helyetesítéssel megkapjuk;
+4.2
+	x=4y
+	x=4×5/8
+	x=5/2
+A 2.1-ből megkapjuk;
+4.3
+	a=3×5/8
+	a=15/8
+A 2.2-ből meg;
+4.4
+	b=0.5×5/8
+	b=5/4
+És mivel B azt jelőlte Juliska mennyit biziklizett, ezért:
+5.1
+	5/4×10=12.5
+Tehát Juliska 12.5 km biciklizett.
+
+4:
+4 pont van a tengelyeken ami ráillik a körre. 
+Emellet negyed körönként van 2 másik pont ami ráillik a körre a 4;3 és a 3;4. Összesen tehát 12 rácspont esik egy ilyen körre.
+
+5:
+A háromszög területét megkaphatjuk úgy hogy ha a határoló négyzetéből a három sarokhoz tartozó háromszögeket kivonjuk. 
+	6×3-4×3/2-2×c/2-6×(3-c)/2=7
+	18-6-c-9+3c=7
+	3+2c=7
+	4=2c
+	c=2
+Tehát c-nek 2-nek kell lennie hogy a háromszög területe 7 legyen.
+
+6:
+Ha sikban van:
+Egy pont köré pont 6 db pontot tudunk úgy elhelyezni hogy ugyan olyan távol legyenek a középsőtől mint a szomszédaitól(hatszög).
+Emiatt ennél csak kevesebb lehet, tehát legfeljebb 5 löhetnek 1 emberre.
+
+Ha 3d-ben van:
+Egy pont köré 12 pontot tudunk úgy elhelyezni hogy ugyan olyan távol legyen a középpontól mint a "szomszédai"-tól(ikozaéder).
+Emiatt ennél csak kevesebb lehet tehát legfeljebb 11 löhetnek 1 emberre.
+
+7:
+Ha 21-et kell kivenni hogy biztos legyen piros, akkor 20 nem piros van, tehát 10 db piros golyó van.
+
+8:
+Ha az átlók mentén 85cm^2 a terület összeg, és egy kisnégyzet 1cm^2. 
+Ez azt jelenti hogy 85 kiskocka van az átlók mentén.
+Emiatt egy átló mentén 43 kiskocka van.
+Ebböl lehet tudni akkor hogy 43 a nagy négyzet oldala, tehát a területe 1849.
+
+9:
+Ezt az egészet vehetjük egy gráfnak ahol a csúcsok az emberek és a köszönés párok az élek.
+A köszönések összege megadja a fokszámok összegét ami 506. Ebböl rá tudunk jőnni összesen mennyien voltak ha gyököt vonunk és felfele kerekitjük. Tehát összesen 23-man vettek részt. 
+Tudjuk hogy mindenki 22 embernek köszönt(önmagán kívűl mindenkinek), ezért ha 192-t osztunk 22 megkapjuk az angolok számát.
+9 angol vett részt a atalálkozón.
