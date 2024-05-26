@@ -1,8 +1,8 @@
-abc = "abcdefghijklmnopqrstuvwxyz"
-nums = '0123456789'
-
 with open('./input.txt', 'r') as f:
     input = f.read()
+
+abc = "abcdefghijklmnopqrstuvwxyz"
+nums = '0123456789'
 
 input = input.lower()
 candidates = ['']
