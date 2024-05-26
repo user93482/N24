@@ -63,4 +63,7 @@ for i in mazes:
     for j in range(len(mazes[i])):
         for k in range(len(mazes[i][j])):
             if mazes[i][j][k] == 'G':
-                print(f'{i}\nS{solver([[j,k]],mazes[i])}G\n')
+                print(f'{i}\nS',end=' ')
+                for l in solver([[j,k]],mazes[i]):
+                    print(l,end=' ')
+                print('G\n')
