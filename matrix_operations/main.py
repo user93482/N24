@@ -11,7 +11,6 @@ def MatrixMult(A,B):
 			while k < len(B):
 				output[i][j] += int(A[i][k])*int(B[k][j])
 				k += 1
-    
 	return output
 
 def MatrixSum(matrices):
@@ -58,6 +57,7 @@ while i < len(lines):
         matrices[key].append(temp)
     i += 1
 
+
 while i < len(lines):
     operands = []
     operators = []
@@ -73,16 +73,17 @@ while i < len(lines):
             operators.append(lines[i][j])
     
     k = 0
-    while k < len(operators):
-        if operators[k] == '*':
-            
+    a = 0
+    while k < len(operators)-1:
+        if operators[k-a] == '*':
             operands[k+1] = MatrixMult(operands[k],operands[k+1])
             operands.pop(k)
+            a += 1
+        k += 1
         
-        newops.append(operators.pop(k))
     
     for j in range(len(keys)-1):
-        print(keys[j],newops[j],end=' ')
+        print(keys[j],operators[j],end=' ')
     print(keys[-1])
     
     temp = MatrixSum(operands)
@@ -91,6 +92,5 @@ while i < len(lines):
             print(k,end=' ')
         print()
     print()
-    
     i += 1
     
